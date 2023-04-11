@@ -6,25 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-    <style>
-
-        * {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        div#login{
-            width: 50%;
-        }
-        form{
-            border: thin solid burlywood;
-            padding: 10px;
-            background-color: antiquewhite;
-        }
-        input:required{
-            border: red solid;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
@@ -33,14 +15,12 @@
     <div id="login">
         <h3>Sign-in</h3>
         <form action="d05_table2.html" method="get">
-            <label for="">username</label> 
-            <input type="text" name="taikhoan" id="taikhoan"
-            value="guest" required> 
+            <label for="">username</label>
+            <input type="text" name="taikhoan" id="taikhoan" value="guest" required>
             <br><br>
 
             <label for="">password</label>
-            <input type="password" name="matma" id="matma" placeholder="nhap mat ma" required
-            pattern="\d{3}" >
+            <input type="password" name="matma" id="matma" placeholder="nhap mat ma" required pattern="\d{3}">
             <br><br>
 
             <button>Submit</button>

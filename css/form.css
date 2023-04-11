@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    border: thin solid burlywood;
+    padding: 20px 40px;
+    background-color: antiquewhite;
+    width: fit-content;
+}
+
+input:required {
+    border: red solid;
+    
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+button {
+    padding: 3px 18px;
+    background-color: red;
+    color: antiquewhite;
+    border-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.02em;
+    border-radius: 10px;
+}
+
+button[type='reset'] {
+    background-color: green;
+}
+
+button[type='buttont'] {
+    background-color: darkcyan;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='date'],
+input[type='number'],
+textarea
+{
+    width: 150px;
+    padding: 3px 10px;
+}
+
+select{
+    width: 175px;
+    padding: 3px 10px;
+}
+
+.comment{
+    vertical-align: top;
+}
